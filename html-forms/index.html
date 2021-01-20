@@ -11,24 +11,25 @@
     <input type="email" id="email" name="email"/>
 
 
-    <label>Why is coding cool ?</label>
-    <select name="options">
+    <label for="why-coding">Why is coding cool ?</label>
+    <select name="options" id="why-coding">
     <option value="Interesting"> Because it's interesting</option>
     <option value="fun">Because it's fun</option>
     <option value="Powerful">Because it's powerful</option>
     </select>
 
 
-    <label>Favourite language (choose one)</label>
-    <input type="radio" name="language" value="HTML" check="checked"/> HTML
-    <input type="radio" name="language" value="css" check="checked" /> CSS
-    <input type="radio" name="language" value="js" check="checked" /> Javascript
+    <label for="fav-lang" >Favourite language (choose one)</label>
+    <input type="radio" name="language" id= "fav-lang"value="HTML" check="checked"/> HTML
+    <input type="radio" name="language"  id="fav-lang" value="css" check="checked" /> CSS
+    <input type="radio" name="language"    id="fav-lang" value="js" check="checked" /> Javascript
 
-    <label>Would you like to sign up for more information?</label>
-    <input type="checkbox" name="sign me up" value="sign me" checked="checked"/> Sign me up
+    <label for="more" >Would you like to sign up for more information?</label>
+    <input type="checkbox" name="sign me up" id="more"value="sign me" checked="checked"/> Sign me up
 
-    <label>Comments</label>
-    <textarea name="Comments" cols="20" rows="4"></textarea>
+    <label for="com">Comments</label>
+    <textarea name="Comments" cols="20" rows="4" ></textarea>
+    <input type="submit" id="com" name="submit" value="submit"/>
   </form>
 
 
