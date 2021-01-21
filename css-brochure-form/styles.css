@@ -1,0 +1,36 @@
+.lmore{
+  color:rgb(255, 123, 0);
+  padding-left: 110px;
+  font-family: 'Brandon Grotesque';
+  margin-bottom: 0px;
+  font-style: normal;
+  font-weight: 500;
+}
+div{
+  padding-left: 400PX;
+}
+label{
+  display: block;
+  font-size: 10px;
+  padding-top: 10px;
+  font-family: 'Brandon Grotesque';
+}
+#submit{
+  display:block;
+  background-color: rgb(240, 60, 60);
+  color: white;
+  margin-top: 10px;
+  margin-left: 280px;
+  font-family: 'Brandon Grotesque';
+  border-width: 0px;
+  border-radius: 20%;
+
+}
+#engineers{
+  width: 330px;
+  background-color: rgb(211, 208, 208);
+  font-family: 'Brandon Grotesque';
+}
+::placeholder {
+  font-family: 'AtlasGrotesk';
+}
