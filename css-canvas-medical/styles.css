@@ -1,0 +1,172 @@
+header{
+  display:flex;
+  flex-direction: row;
+  border-bottom: 1px solid #f0eeee;
+  padding-top: 20px;
+  justify-content: right;
+}
+ul{
+  list-style: none;
+  font-family: 'Avenir';
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  color: #bbb;;
+}
+.top-links nav{
+  display: flex;
+  justify-content: space-around;
+  width:900px;
+}
+.canvas-logo img{
+  width: 40%;
+  padding-top: 15px;
+  padding-bottom: 12px;
+}
+#contact-top{
+  background-color: #494973;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: #494973;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border-color: #494973;
+}
+.hero{
+  background-image: url('../css-canvas-medical/images/hero.jpg') ;
+  background-size: 1100px 800px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  height: 900px;
+
+}
+.main-top{
+  height: 100px;
+}
+h1{
+  font-family: 'Avenir';
+  color: white;
+}
+p{
+  font-family: 'Avenir';
+  color:white;
+}
+.middle-text{
+  width: 500px;
+  margin-left: 200px;
+  padding-top: 50px;
+}
+h2{
+  font-family: 'Tiempos Headline';
+  color: gray;
+  font-weight: normal
+}
+.clinicians{
+  text-align: center;
+  background-color: #eaeaea;
+  font-family: 'Tiempos Headline';
+  padding-top: 20px;
+}
+
+.clinicians p{
+  font-family: 'Avenir';
+  color: gray;
+  font-size: 12px;
+}
+.clin-top{
+  text-align: center;
+}
+.practice{
+  display:flex;
+}
+.clin-left{
+  width:calc(100%/2);
+  line-height: 2;
+}
+.clin-right{
+  width:calc(100%/2);
+  line-height: 2;
+}
+.get-started{
+  background-color: #494973;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  font-size: 13px;
+}
+.ready{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ready1{
+  width: calc(100%/1.4);
+
+}
+.ready1 p{
+  font-family: 'Avenir';
+  color: gray;
+  font-size: 10px;
+}
+.ready2{
+  width: calc(100%/4)
+}
+footer{
+  background-color: #646363;
+  display:flex;
+  justify-content: space-around;
+}
+.bottom-logo img{
+  width:150px
+}
+.bottom-logo{
+  padding-bottom: 20px;
+}
+.bottom{
+  padding-top: 40px;
+  width: calc(100%/2)
+}
+.bottom-1 p{
+  font-family: 'Avenir';
+  font-size: 11px;
+}
+.bottom-links{
+  height:300px;
+}
+.bottom-links2{
+  height:300px;
+}
+.bottom-links ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:120px;
+  color: white;
+}
+.bottom-link2 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height:200px;
+  color: white;
+}
+.bottom-4{
+  background-color: #f0efef;
+  border-top: #f0efef;
+  border-top-style: none;
+  border-top-width: medium;
+  border-top-width: 30px;
+  border-top-style: solid;
+}
+.bottom-link3 ul{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  justify-content: space-between;
+  padding-left: 30px;
+  width: 220px
+
+}
