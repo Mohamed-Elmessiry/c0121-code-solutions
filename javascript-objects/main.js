@@ -3,24 +3,24 @@ const student = {
   lastName: 'Elmessiry',
   age: 34
 };
-const fullname = (student.firstName) + ' ' + (student.lastName);
+const fullname = student.firstName + ' ' + student.lastName;
 console.log('value of fullname: ' + ' ' + fullname);
-(student.livesInIrvine) = false;
-(student.previousOccupation) = 'Financial Analyst';
+student.livesInIrvine = false;
+student.previousOccupation = 'Financial Analyst';
 console.log('value of student lives in Irvine:' + ' ' + student.livesInIrvine);
 console.log('value of previous occupation:' + ' ' + student.previousOccupation);
 console.log(student);
 
-const vehichle = {
+const vehicle = {
   make: 'mercedes',
   model: 'gullwing',
   year: '1957'
 };
-(vehichle.color) = 'silver';
-(vehichle.isConvertible) = false;
-console.log('value of vehichle color:' + ' ' + vehichle.color);
-console.log('value of vechile is convertible:' + ' ' + vehichle.isConvertible);
-console.log(vehichle);
+vehicle.color = 'silver';
+vehicle.isConvertible = false;
+console.log('value of vehichle color:' + ' ' + vehicle.color);
+console.log('value of vechile is convertible:' + ' ' + vehicle.isConvertible);
+console.log(vehicle);
 
 const pet = {
   name: 'felfel',
