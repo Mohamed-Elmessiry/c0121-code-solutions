@@ -26,7 +26,7 @@ input{
   background-color: rgb(240, 60, 60);
   color: white;
   margin-top: 10px;
-  margin-left: 240px;
+  margin-left: 350px;
   font-family: 'Brandon Grotesque';
   border-width: 0px;
   border-radius: 100px;
@@ -42,6 +42,7 @@ input{
   font-family: 'Brandon Grotesque';
   border-radius: 5px;
   height:30px;
+  width: 435px;
 }
 ::placeholder {
   font-family: 'AtlasGrotesk';
