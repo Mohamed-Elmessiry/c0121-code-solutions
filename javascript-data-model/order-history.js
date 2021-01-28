@@ -1,5 +1,5 @@
 var orderHistory = [
-  order1 = [
+  [
     {
       orderPlaced: 'August 4, 2020',
       total: '$34',
@@ -12,7 +12,7 @@ var orderHistory = [
       price: '$31.55'
     }
   ],
-  order2 = [
+  [
     {
       orderPlaced: 'July 19,2020',
       total: '$44.53',
@@ -25,7 +25,7 @@ var orderHistory = [
       price: '$41.33'
     }
   ],
-  order3 = [
+  [
     {
       orderPlaced: 'July 4,2020',
       total: '$17.22',
@@ -37,28 +37,30 @@ var orderHistory = [
       price: '$15.98'
     }
   ],
-  order4 = [
+  [
     {
       orderPlaced: 'July 3,2020',
-      total: '$138.93',
-      shipTo: 'JS Masher'
-    },
-    {
+      shipTo: 'JS Masher',
       order: '113-2883177-2648248',
-      delivereDate: 'July 3,2020',
-      itemName: 'GameCube Controller - Super Smash Bros Edition (Nintendo Switch)',
-      returnWindowClosingDate: 'Aug 4,2020',
-      price: '$94.94'
-    },
-    {
-      order: '113-2883177-2648248',
-      deliveredDate: 'July 3, 2020',
-      bookTitle: 'The Art of Sql',
-      bookAuthor: 'Faroult Stephane',
-      returnWindowClosingDate: 'Aug 4,2020',
-      price: '$33.99'
+      items: [
+        {
+          delivereDate: 'July 3,2020',
+          itemName: 'GameCube Controller - Super Smash Bros Edition (Nintendo Switch)',
+          returnWindowClosingDate: 'Aug 4,2020',
+          price: '$94.94'
+        },
+        {
+          deliveredDate: 'July 3, 2020',
+          bookTitle: 'The Art of Sql',
+          bookAuthor: 'Faroult Stephane',
+          returnWindowClosingDate: 'Aug 4,2020',
+          price: '$33.99'
 
+        }
+
+      ]
     }
+
   ]
 
 ];
