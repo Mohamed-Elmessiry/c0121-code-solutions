@@ -7,5 +7,3 @@ function isVowel(char) {
   }
 
 }
-
-// A, E, I, O,
