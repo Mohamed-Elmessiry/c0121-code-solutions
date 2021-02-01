@@ -1,0 +1,14 @@
+console.log('hello, world');
+var q = document.querySelector('h1');
+console.log('h1 query selectors:' + ' ' + q);
+console.dir('h1 directory query' + ' ' + q);
+var p = document.querySelector('#explanation');
+console.log(' #explanation id query selector' + ' ' + p);
+console.dir('p directory query ' + ' ' + p);
+var f = document.querySelector('.hint');
+console.log('hint class query selector ' + ' ' + f);
+console.dir('hint class query directory' + ' ' + f);
+var m = document.querySelectorAll('p');
+console.log('p element query selector ' + ' ' + m);
+var a = document.querySelectorAll('.example-link');
+console.log('example link class query selector' + ' ' + a);
