@@ -35,14 +35,14 @@ button:focus {
   outline: none;
 }
 
-button {
-  transform: translateY(0.25rem,0);
+button:active {
+  transform: translateY(0.25rem);
 }
 
-img: :first-child {
- transform: rotate(30deg);
+ .column:first-child > img.pokeball {
+ transform: rotate(-30deg);
 }
 
-img: :last-child {
+.column:last-child > img.pokeball{
  transform: rotate(30deg);
 }
