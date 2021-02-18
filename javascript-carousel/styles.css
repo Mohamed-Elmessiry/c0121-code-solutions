@@ -1,0 +1,52 @@
+.slider {
+  margin: 50px auto;
+  width:50%;
+}
+
+.img-box{
+  text-align: center;
+}
+
+.slider{
+  border:solid;
+}
+
+.n{
+  position: absolute;
+  top: 300px;
+  right: 400px;
+}
+
+.prev{
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+
+button{
+  background: none;
+  border: none;
+  font-size:25px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height:30px;
+
+}
+.cone{
+  z-index: 99;
+}
+
+i {
+  font-size: 10px;
+}
+
+i:hover{
+  color:white;
+  border:black solid;
+  border-radius: 150%;
+  font-size: 5px;
+}
