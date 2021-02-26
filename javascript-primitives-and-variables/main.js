@@ -1,6 +1,6 @@
-var fullName= "Mohamed Elmessiry";
-var isCool= false;
-var totalPets= 0;
+var fullName = "Mohamed Elmessiry";
+var isCool = false;
+var totalPets = 0;
 
 console.log('value of fullName:', fullName);
 console.log('value of isCool:',isCool);
