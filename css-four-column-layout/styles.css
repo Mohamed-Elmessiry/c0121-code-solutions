@@ -1,0 +1,38 @@
+body{
+background-color:rgb(238, 238, 238);;
+ font-family: barlow;
+}
+
+.how{
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+h2{
+  color:black;
+}
+h3{
+  color: black;
+}
+p{
+  color: black;
+}
+.phone{
+  text-align: center;
+}
+
+
+.images{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.primary{
+  width: 250px
+}
+.icon{
+  width:100px
+}
