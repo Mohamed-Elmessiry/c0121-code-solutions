@@ -1,0 +1,29 @@
+body{
+  color:rgb(199, 199, 199);
+  font-family: barlow;
+}
+
+.how{
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+h3{
+  color: black;
+}
+p{
+  color: black;
+}
+.phone{
+  text-align: center;
+  /* width: calc(100%/4) */
+}
+
+
+.images{
+  display:flex;
+  flex-direction: row;
+
+}
