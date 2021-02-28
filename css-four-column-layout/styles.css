@@ -1,6 +1,6 @@
 body{
-  color:rgb(199, 199, 199);
-  font-family: barlow;
+background-color:rgb(238, 238, 238);;
+ font-family: barlow;
 }
 
 .how{
@@ -10,6 +10,9 @@ body{
 ul {
     list-style-type: none;
 }
+h2{
+  color:black;
+}
 h3{
   color: black;
 }
@@ -18,12 +21,18 @@ p{
 }
 .phone{
   text-align: center;
-  /* width: calc(100%/4) */
 }
 
 
 .images{
   display:flex;
   flex-direction: row;
+  justify-content: center;
 
+}
+.primary{
+  width: 250px
+}
+.icon{
+  width:100px
 }
