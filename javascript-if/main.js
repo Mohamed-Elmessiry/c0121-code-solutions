@@ -16,14 +16,14 @@ function isUnderFive(number) {
 console.log('isUnderFive(4)', isUnderFive(4));
 
 function isEven(number) {
-  if (number % 2 == 0) {
+  if (number % 2 === 0) {
     return true;
   }
 }
 console.log('isEven(4):', isEven(4));
 
 function startsWithJ(string) {
-  if (string.charAt(0) == 'J') {
+  if (string.charAt(0) === 'J') {
     return true;
   } else {
     return false;
@@ -86,7 +86,7 @@ function introduceWarnerBro(name) {
   if (name === 'yakko') {
     return "We're the warner brothers!";
   } else if (name === 'wakko') {
-    "We're the warner brothers!";
+    return "We're the warner brothers!";
   } else if (name === 'dot') {
     return "I'm cute~";
   } else {
