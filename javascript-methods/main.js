@@ -1,5 +1,8 @@
-var nOne = [2, 4, 8];
-var maximumValue = Math.max(...nOne);
+var nOne = 2;
+var nTwo = 4;
+var nThree = 8;
+
+var maximumValue = Math.max(nOne, nTwo, nThree);
 console.log('The value of maximumValue is:', maximumValue);
 var heroes = ['superman', 'spiderman', 'batman', 'capitan america'];
 var randomNumber = Math.random();
