@@ -21,10 +21,10 @@ console.log('getNumbers4,ToTen', getNumbersToTen());
 
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
-  var currentNumber = 2;
+
   for (var i = 2; i <= 20; i += 2) {
-    evenNumbers.push(currentNumber);
-    currentNumber += 2;
+    evenNumbers.push(i);
+
   }
   return evenNumbers;
 }
@@ -32,11 +32,11 @@ function getEvenNumbersToTwenty() {
 console.log('getEvenNumbersToTwenty:', getEvenNumbersToTwenty());
 
 function repeatWord(word, times) {
-  var count = 1;
+
   var repeated = '';
-  for (var i = count; i <= times; i++) {
+  for (var i = 1; i <= times; i++) {
     repeated += word;
-    count++;
+
   }
   return repeated;
 }
