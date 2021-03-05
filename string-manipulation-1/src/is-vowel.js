@@ -1,8 +1,10 @@
 /* exported isVowel */
+//
+
 function isVowel(char) {
-  var vowel = ['a', 'e', 'i', 'o', 'u'];
-  for (var i = 0; i < char.length; i++) {
-    if (char[i] === vowel[i]) {
+  var vowel = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+  for (var i = 0; i < vowel.length; i++) {
+    if (char === vowel[i]) {
       return true;
     }
   }

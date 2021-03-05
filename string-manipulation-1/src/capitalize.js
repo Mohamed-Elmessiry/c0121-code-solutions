@@ -1,11 +1,7 @@
 /* exported capitalize */
-function capitalize(word) {
-  var capital = '';
-  for (var i = 0; i < word.length; i++) {
-    if (word[i] === word[i].toUpperCase()) {
-      capital += word;
-    }
 
-  }
+function capitalize(word) {
+  var capital = word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+
   return capital;
 }
