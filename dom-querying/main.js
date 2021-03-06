@@ -1,0 +1,14 @@
+console.log('hello,world');
+var heading = document.querySelector('h1');
+console.log('varibale query selector for h1', heading);
+console.dir(heading);
+var exp = document.querySelector('#explanation');
+console.log('query selector for elements with id of explanation ', exp);
+console.dir(exp);
+var cHint = document.querySelector('.hint');
+console.log('query selector for class of hint ', cHint);
+console.dir(cHint);
+var pAll = document.querySelectorAll('p');
+console.log('queryselector all for p elements', pAll);
+var eL = document.querySelectorAll('.example-link');
+console.log('querselector all of a class of example-link', eL);
